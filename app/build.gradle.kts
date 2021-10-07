@@ -10,6 +10,7 @@ plugins {
     kotlin("android")
     kotlin("plugin.serialization")
     id("com.github.zellius.shortcut-helper")
+    id("kotlin-android-extensions")
 }
 
 if (gradle.startParameter.taskRequests.toString().contains("Standard")) {
